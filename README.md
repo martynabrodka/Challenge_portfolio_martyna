@@ -11,33 +11,51 @@
   ## Subtask 2: Wypisz wszystkie elementy znajdujące się na stronie https://scouts-test.futbolkolektyw.pl/pl/login oraz wymień do nich po 3 selektory
 
 **Przypomnij_hasło_hyperlink_xpath**
+
 //*[@id="__next"]/form/div/div[1]/a
+
 //*[text()="Przypomnij hasło"]
+
 //child::div/a
 
 **Scouts_Panel_heading_xpath**
+
 //*[@id="__next"]/form/div/div[1]/h5
+
 //*[text()="Scouts Panel"]
+
 //*[contains(@class, "MuiTypography-root MuiTypography-h5")]
 
 **Login_input_xpath**
+
 //*[@id="login"]
+
 //*[text()="Login"]
+
 //*[contains(@class, "MuiInputBase-root MuiInput")]
 
 **Hasło_input_xpath**
+
 //*[@id="password"]
+
 //*[text()="Hasło"]
+
 //*[@name="password"]
 
 **Polski_button_xpath**
+
 //*[@id="__next"]/form/div/div[2]/div/div
+
 //*[contains(@class, "MuiSelect-root MuiSelect-select")]
+
 //*[text()="Polski"]
 
 **Zaloguj_button_xpath**
+
 //*[@id="__next"]/form/div/div[2]/button/span[1]
+
 //*[contains(@class, "MuiButton-label")]
+
 //*[text()="Zaloguj"]
 
   ## Subtask 3:
