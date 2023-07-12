@@ -68,3 +68,14 @@
 
   [plik add_a_match_form.py](https://drive.google.com/file/d/1fj1m4UDF-zc7bhKhusjsF1CNXRSsBaEk/view?usp=drive_link)
   
+#   Task 3: Pierwszy test automatyczny i asserty
+  ## Subtask 1: Uzupełnienie strony logowania
+  pages/login_page.py
+  ## Subtask 2: Nowy przypadek testowy
+  test_cases/log_in_to_the_system.py
+  ## Subtask 3: Assert
+  test_cases/check_title_dashboard.py
+  ## Subtask 4: Assert na stronie 'Add player'
+  test_cases/add_a_player.py
+  ## Subtask 5
+  pages/base_page.py
