@@ -70,12 +70,12 @@
   
 #   Task 3: Pierwszy test automatyczny i asserty
   ## Subtask 1: Uzupełnienie strony logowania
-  pages/login_page.py
+  [plik login_page.py](https://drive.google.com/file/d/1YsZQIgspEi9A_g12IoZoAxMX-pPHO92G/view?usp=drive_link)
   ## Subtask 2: Nowy przypadek testowy
-  test_cases/log_in_to_the_system.py
+  [plik log_in_to_the_system.py](https://drive.google.com/file/d/1-cMOA0qvtX-Kohymr02NUTfIRI7BeuBU/view?usp=drive_link)
   ## Subtask 3: Assert
-  test_cases/check_title_dashboard.py
+  [plik check_title_dashboard.py](https://drive.google.com/file/d/1LgKx9BddTuu7BZD5y3O4NSQ-JU_u8d-V/view?usp=drive_link)
   ## Subtask 4: Assert na stronie 'Add player'
-  test_cases/add_a_player.py
-  ## Subtask 5
-  pages/base_page.py
+  [plik add_a_player.py](https://drive.google.com/file/d/19wgaOylHJ8IcayoP9S7MaOj98Dkn50yI/view?usp=drive_link)
+  ## Subtask 
+  [plik base_page.py](https://drive.google.com/file/d/1bXMHzbUKitCoqiAXjdz7jwLHcNA-rd27/view?usp=drive_link)
