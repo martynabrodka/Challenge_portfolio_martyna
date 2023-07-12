@@ -1,6 +1,6 @@
 from pages.base_page import BasePage
 
-class Add_a_match_form(BasePage):
+class AddAMatchForm(BasePage):
     adding_match_player_title_xpath = "//*[@id='__next']/div[1]/main/div[2]/form/div[1]/div/span"
     my_team_input_xpath = "//*[@name='myTeam']"
     enemy_team_input_xpath = "//*[@name='enemyTeam']"

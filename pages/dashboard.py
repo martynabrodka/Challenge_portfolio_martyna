@@ -1,6 +1,9 @@
 from pages.base_page import BasePage
+import time
 
 class Dashboard(BasePage):
+    expected_title = "Scouts panel"
+    dashboard_url = 'https://scouts-test.futbolkolektyw.pl/en/'
     scouts_panel_paragraph_xpath = "//h6"
     strona_glowna_button_xpath = "//*[contains(@class, 'MuiTypography-root MuiListItemText-primary')]"
     gracze_button_xpath = "//*[@id='__next']/div[1]/div/div/div/ul[1]/div[2]/div[2]/span"
@@ -15,7 +18,7 @@ class Dashboard(BasePage):
     panel_information_xpath = "//*[contains(@class, 'MuiTypography-colorTextSecondary')]"
     contact_button_xpath = "//*[contains(@class, 'MuiButton-label')]"
     linki_pomocnicze_subheading_xpath = "//*[text()='Linki pomocnicze']"
-    dodaj_gracza_button_xpath = "//*[@id='__next']/div[1]/main/div[3]/div[2]/div/div/a/button/span[1]"
+    add_a_player_button_xpath = "//*[@id='__next']/div[1]/main/div[3]/div[2]/div/div/a/button/span[1]"
     aktywnosc_subheading_xpath = "//*[text()='Aktywnosć']"
     ostatnio_stworzony_gracz_subtitle_xpath = "//*[contains(@class, 'MuiTypography-subtitle1')]"
     ostatnio_stworzony_gracz_button_xpath = "//*[@id='__next']/div[1]/main/div[3]/div[3]/div/div/a[1]/button/span[1]"
@@ -27,4 +30,8 @@ class Dashboard(BasePage):
     ostatanio_zaaktualizowany_mecz_button_xpath = "//*[@id='__next']/div[1]/main/div[3]/div[3]/div/div/a[4]/button/span[1]"
     ostatnio_zaaktualizowany_raport_subtitle_xpath = "//*[text()='Ostatnio zaaktualizowany raport']"
     ostatnio_zaaktualizowany_raport_button_xpath = "//*[@id='__next']/div[1]/main/div[3]/div[3]/div/div/a[5]/button/span[1]"
-    pass
+
+    def title_of_page(self):
+        time.sleep(5)
+        assert self.get_page_title(self.dashboard_url) == self.expected_title
+
