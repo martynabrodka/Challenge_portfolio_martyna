@@ -43,7 +43,7 @@ class Dashboard(BasePage):
     def select_language(self, language):
         self.click_on_the_element(self.language_button_xpath)
         time.sleep(3)
-        if language == "English":
-            self.click_on_the_element(self.english_option)
-        else:
+        if language == "english":
             self.click_on_the_element(self.polish_option)
+        else:
+            self.click_on_the_element(self.english_option)

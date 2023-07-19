@@ -31,10 +31,16 @@ class TestDashboardPage(unittest.TestCase):
         time.sleep(5)
 
     def test_change_language(self):
-        dashboard_page = Dashboard(self.driver)
-        dashboard_page.select_language("English")
+        user_login = LoginPage(self.driver)
+        user_login.title_of_page()
+        user_login.type_in_email('user10@getnada.com')
+        user_login.type_in_password('Test-1234')
+        user_login.click_sign_in()
         time.sleep(3)
+        dashboard_page = Dashboard(self.driver)
         dashboard_page.select_language("Polski")
+        time.sleep(3)
+        dashboard_page.select_language("English")
         time.sleep(3)
 
     def test_check_title(self):
