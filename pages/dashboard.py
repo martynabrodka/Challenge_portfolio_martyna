@@ -5,10 +5,10 @@ class Dashboard(BasePage):
     expected_title = "Scouts panel"
     dashboard_url = 'https://scouts-test.futbolkolektyw.pl/en/'
     scouts_panel_paragraph_xpath = "//h6"
-    strona_glowna_button_xpath = "//*[contains(@class, 'MuiTypography-root MuiListItemText-primary')]"
-    gracze_button_xpath = "//*[@id='__next']/div[1]/div/div/div/ul[1]/div[2]/div[2]/span"
-    english_button_xpath = "//*[text()='English']"
-    wyloguj_button_xpath = "//*[text()='Wyloguj']"
+    main_page_button_xpath = "//*[contains(@class, 'MuiTypography-root MuiListItemText-primary')]"
+    players_button_xpath = "//*[@id='__next']/div[1]/div/div/div/ul[1]/div[2]/div[2]/span"
+    polski_button_xpath = "//*[text()='Polski']"
+    sign_out_button_xpath = "//*[text()='Sign out']"
     ilosc_graczy_table_xpath = "//*[@id='__next']/div[1]/main/div[2]/div[1]/div/div[1]"
     ilosc_meczy_table_xpath = "//*[@id='__next']/div[1]/main/div[2]/div[2]/div/div[1]"
     ilosc_raportow_table_xpath = "//*[@id='__next']/div[1]/main/div[2]/div[3]/div/div[1]"
@@ -35,3 +35,5 @@ class Dashboard(BasePage):
         time.sleep(5)
         assert self.get_page_title(self.dashboard_url) == self.expected_title
 
+    def click_sign_out(self):
+        self.click_on_the_element(self.sign_out_button_xpath)

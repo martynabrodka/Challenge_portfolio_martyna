@@ -83,3 +83,15 @@
 
   ## Subtask 5: Zadanie dodatkowe
   👉 [plik base_page.py](https://drive.google.com/file/d/1bXMHzbUKitCoqiAXjdz7jwLHcNA-rd27/view?usp=drive_link)
+
+#   Task 4: Refactor, debbuger i przypadki testowe
+  ## Subtask 1: Pisanie przypadków testowych
+  👉 [Moje przypadki testowe](https://docs.google.com/spreadsheets/d/1oCMoi-DnKfkXnT81NxHQOofQZwvXlf0uxOOeNOGXsws/edit?usp=drive_link)
+
+  ## Subtask 2: Pisanie kodu na podstawie przypadków testowych
+  👉 [Moje testy]()
+
+  ## Subtask 3: Dodanie nagrań z uruchomionych testów na dysku google
+  👉 [Nagranie z testów](https://drive.google.com/file/d/1ehrMYM4nZ5nJTS4R3tR21oAsKGPWIshN/view?usp=drive_link)
+
+  

@@ -27,8 +27,10 @@ class TestDashboardPage(unittest.TestCase):
         user_login.click_sign_in()
         dashboard_page = Dashboard(self.driver)
         dashboard_page.title_of_page()
-        BasePage.tearDown(self)
+        #BasePage.tearDown(self)
         time.sleep(5)
+
+    def test_change_language(self):
 
     def test_check_title(self):
         actual_title = self.get_page_title('https://scouts-test.futbolkolektyw.pl/en')

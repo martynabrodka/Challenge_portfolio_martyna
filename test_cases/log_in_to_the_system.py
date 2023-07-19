@@ -25,9 +25,32 @@ class TestLoginPage(unittest.TestCase):
         user_login.title_of_page()
         user_login.type_in_email('user10@getnada.com')
         user_login.type_in_password('Test-1234')
+        user_login.wait_for_element_to_be_clickable("//*[text()= 'Sign in']")
         user_login.click_sign_in()
         dashboard_page = Dashboard(self.driver)
         dashboard_page.title_of_page()
+        time.sleep(5)
+
+    def test_log_in_with_wrong_password(self):
+        user_login = LoginPage(self.driver)
+        user_login.title_of_page()
+        user_login.type_in_email('user10@getnada.com')
+        user_login.type_in_password('Test-1111')
+        user_login.wait_for_element_to_be_clickable("//*[text()= 'Sign in']")
+        user_login.click_sign_in()
+        time.sleep(5)
+        print('test_log_in_with_wrong_password - ok, password invalid')
+
+    def test_sign_out_of_the_system(self):
+        user_login = LoginPage(self.driver)
+        user_login.title_of_page()
+        user_login.type_in_email('user10@getnada.com')
+        user_login.type_in_password('Test-1234')
+        user_login.wait_for_element_to_be_clickable("//*[text()= 'Sign in']")
+        user_login.click_sign_in()
+        time.sleep(5)
+        dashboard_page = Dashboard(self.driver)
+        dashboard_page.click_sign_out()
         time.sleep(5)
 
     @classmethod

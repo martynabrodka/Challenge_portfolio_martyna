@@ -9,8 +9,9 @@ class LoginPage(BasePage):
     remind_password_hyperlink_xpath = "//*[@id='__next']/form/div/div[1]/a"
     login_url = ('https://scouts-test.futbolkolektyw.pl/en')
     title_of_box_xpath = "//*[@id='__next']/form/div/div[1]/h5"
-    header_of_box = 'Scouts Panel'
-    expected_title = 'Scouts panel - sign in'
+    header_of_box = "Scouts Panel"
+    expected_title = "Scouts panel - sign in"
+    sign_out_button_xpath = "//*[text()='Sign out']"
 
     def type_in_email(self, email):
         self.field_send_keys(self.login_field_xpath, email)
@@ -26,3 +27,6 @@ class LoginPage(BasePage):
 
     def check_title_of_header(self):
         self.assert_element_text(self.driver, self.title_of_box_xpath, self.header_of_box)
+
+    def click_sign_out(self):
+        self.click_on_the_element(self.sign_out_button_xpath)
