@@ -31,6 +31,11 @@ class TestDashboardPage(unittest.TestCase):
         time.sleep(5)
 
     def test_change_language(self):
+        dashboard_page = Dashboard(self.driver)
+        dashboard_page.select_language("English")
+        time.sleep(3)
+        dashboard_page.select_language("Polski")
+        time.sleep(3)
 
     def test_check_title(self):
         actual_title = self.get_page_title('https://scouts-test.futbolkolektyw.pl/en')

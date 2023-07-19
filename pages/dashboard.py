@@ -7,7 +7,9 @@ class Dashboard(BasePage):
     scouts_panel_paragraph_xpath = "//h6"
     main_page_button_xpath = "//*[contains(@class, 'MuiTypography-root MuiListItemText-primary')]"
     players_button_xpath = "//*[@id='__next']/div[1]/div/div/div/ul[1]/div[2]/div[2]/span"
-    polski_button_xpath = "//*[text()='Polski']"
+    language_button_xpath = "//*[text()='Polski']"
+    english_option = "//*[text()='English']"
+    polish_option = "//*[text()='Polski']"
     sign_out_button_xpath = "//*[text()='Sign out']"
     ilosc_graczy_table_xpath = "//*[@id='__next']/div[1]/main/div[2]/div[1]/div/div[1]"
     ilosc_meczy_table_xpath = "//*[@id='__next']/div[1]/main/div[2]/div[2]/div/div[1]"
@@ -37,3 +39,11 @@ class Dashboard(BasePage):
 
     def click_sign_out(self):
         self.click_on_the_element(self.sign_out_button_xpath)
+
+    def select_language(self, language):
+        self.click_on_the_element(self.language_button_xpath)
+        time.sleep(3)
+        if language == "English":
+            self.click_on_the_element(self.english_option)
+        else:
+            self.click_on_the_element(self.polish_option)
