@@ -89,9 +89,14 @@
   👉 [Moje przypadki testowe](https://docs.google.com/spreadsheets/d/1oCMoi-DnKfkXnT81NxHQOofQZwvXlf0uxOOeNOGXsws/edit?usp=drive_link)
 
   ## Subtask 2: Pisanie kodu na podstawie przypadków testowych
-  👉 [Moje testy]()
+  👉 Moje testy:
+  
+  [test_add_a_player_with_age_above_100; test_add_a_player_without_mandatory_fields](https://github.com/martynabrodka/challenge2_automat_portfolio_martyna/blob/main/test_cases/add_a_player.py)
 
+  [test_log_in_with_wrong_password; test_sign_out_of_the_system](https://github.com/martynabrodka/challenge2_automat_portfolio_martyna/blob/main/test_cases/log_in_to_the_system.py)
+
+  [test_change_language](https://github.com/martynabrodka/challenge2_automat_portfolio_martyna/blob/main/test_cases/check_title_dashboard.py)
+  
   ## Subtask 3: Dodanie nagrań z uruchomionych testów na dysku google
   👉 [Nagranie z testów](https://drive.google.com/file/d/1ehrMYM4nZ5nJTS4R3tR21oAsKGPWIshN/view?usp=drive_link)
 
-  
