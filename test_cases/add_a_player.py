@@ -33,7 +33,10 @@ class TestAddAPlayerPage(unittest.TestCase):
         time.sleep(3)
         add_a_player_page.get_page_title(add_a_player_page.add_a_player_url)
         time.sleep(3)
-        add_a_player_page.type_in_age('20-07-1890')
+        add_a_player_page.type_in_name('Lemon') #fulfilling required fields
+        add_a_player_page.type_in_surname('Smith') #fulfilling required fields
+        add_a_player_page.type_in_main_position('goalkeeper') #fulfilling required fields
+        add_a_player_page.type_in_age('20-07-1890') #fulfilling required fields
         time.sleep(3)
         print('test_add_a_player_with_age_above_100 - not ok, check the Bug')
 

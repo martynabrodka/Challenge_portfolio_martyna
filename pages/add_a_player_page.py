@@ -14,7 +14,7 @@ class AddAPlayerForm(BasePage):
     expected_pop_up_inscription = "Required"
     add_a_player_page_title_xpath = "//header//h6"
     email_field_xpath = "//input[@name='email']"
-    name_field_xpath = "input[@name='name']"
+    name_field_xpath = "//input[@name='name']"
     surname_field_xpath = "//input[@name='surname']"
     phone_field_xpath = "//input[@name='phone']"
     weight_field_xpath = "//input[@name='weight']"
