@@ -9,7 +9,7 @@ import time
 class AddAPlayerForm(BasePage):
     add_a_player_expected_title = "Add player"
     add_a_player_button_xpath = "//*[text()= 'Add player']"
-    add_a_player_url = ('https://scouts-test.futbolkolektyw.pl/en/players/add')
+    add_a_player_url = ('https://dareit.futbolkolektyw.pl/en/players/add')
     pop_up_inscription_required_xpath = "//*[@id='__next']/div[1]/main/div[2]/form/div[2]/div/div[2]/div/p"
     expected_pop_up_inscription = "Required"
     add_a_player_page_title_xpath = "//header//h6"

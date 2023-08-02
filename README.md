@@ -103,7 +103,16 @@
   👉 [Nagranie z testu 5](https://drive.google.com/file/d/1ULI6hPqih2wDB8_kKl2SlBw3iCJCeBSt/view?usp=drive_link)
 
 #   Task 5: Robot Framework
-## Subtask 1: Przepisanie testów z zadania 4 na Robot Framework
+  ## Subtask 1: Przepisanie testów z zadania 4 na Robot Framework
 
-[My test cases in Robot Framework](https://github.com/martynabrodka/test_robotframework.git)
+  👉 [My test cases in Robot Framework](https://github.com/martynabrodka/test_robotframework.git)
 
+#   Task 6: Raportowanie błędów i raport z testów
+  ## Subtask 2: Zgłaszanie błędów
+  👉 [My reported bugs(aut)](https://docs.google.com/spreadsheets/d/1FIdp6GxTHnairIT1u8cfehFB0X-CVmjoOduRehm3puQ/edit?usp=drive_link)
+
+  ## Subtask 3: Raport z testów
+  👉 [Test report auto](https://docs.google.com/spreadsheets/d/1hMPS9euSHF762eKXP4l0XdkegYESSOrABoE-5sMd2X0/edit?usp=drive_link)
+
+  ## Subtask 4: Moje portfolio
+  👉 [PORTFOLIO Martyna Bródka](https://github.com/martynabrodka/portfolio_martyna_brodka/blob/main/README.md#portfolio_martyna_brodka)

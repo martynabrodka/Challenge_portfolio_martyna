@@ -3,7 +3,7 @@ import time
 
 class Dashboard(BasePage):
     expected_title = "Scouts panel"
-    dashboard_url = 'https://scouts-test.futbolkolektyw.pl/en/'
+    dashboard_url = 'https://dareit.futbolkolektyw.pl/en/'
     scouts_panel_paragraph_xpath = "//h6"
     main_page_button_xpath = "//*[contains(@class, 'MuiTypography-root MuiListItemText-primary')]"
     players_button_xpath = "//*[@id='__next']/div[1]/div/div/div/ul[1]/div[2]/div[2]/span"
