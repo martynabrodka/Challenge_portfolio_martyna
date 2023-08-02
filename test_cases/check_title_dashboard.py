@@ -44,7 +44,7 @@ class TestDashboardPage(unittest.TestCase):
         time.sleep(3)
 
     def test_check_title(self):
-        actual_title = self.get_page_title('https://scouts-test.futbolkolektyw.pl/en')
+        actual_title = self.get_page_title('https://dareit.futbolkolektyw.pl/en')
         expected_title = 'Scouts panel - sign in'
         assert actual_title == expected_title
     def get_page_title(self, url):

@@ -54,7 +54,7 @@ class TestAddAPlayerPage(unittest.TestCase):
         time.sleep(5)
 
     def test_check_title(self):
-        actual_title = self.get_page_title('https://scouts-test.futbolkolektyw.pl/en/players/add')
+        actual_title = self.get_page_title('https://dareit.futbolkolektyw.pl/en/players/add')
         add_a_player_expected_title = 'Add player'
         assert actual_title == add_a_player_expected_title
     def get_page_title(self, url):
