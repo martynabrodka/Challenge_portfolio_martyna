@@ -8,53 +8,53 @@
 #   Task 2: Selektory
   ## Subtask 2: Wypisz wszystkie elementy znajdujące się na stronie https://scouts-test.futbolkolektyw.pl/pl/login oraz wymień do nich po 3 selektory
 
-👉 **Przypomnij_hasło_hyperlink_xpath**
+  👉 **Przypomnij_hasło_hyperlink_xpath**
 
-1️⃣ //*[@id="__next"]/form/div/div[1]/a
+    1️⃣ //*[@id="__next"]/form/div/div[1]/a
 
-2️⃣ //*[text()="Przypomnij hasło"]
+    2️⃣ //*[text()="Przypomnij hasło"]
 
-3️⃣ //child::div/a
+    3️⃣ //child::div/a
 
-👉 **Scouts_Panel_heading_xpath**
+  👉 **Scouts_Panel_heading_xpath**
 
-1️⃣ //*[@id="__next"]/form/div/div[1]/h5
+    1️⃣ //*[@id="__next"]/form/div/div[1]/h5
 
-2️⃣ //*[text()="Scouts Panel"]
+    2️⃣ //*[text()="Scouts Panel"]
 
-3️⃣ //*[contains(@class, "MuiTypography-root MuiTypography-h5")]
+    3️⃣ //*[contains(@class, "MuiTypography-root MuiTypography-h5")]
 
-👉 **Login_input_xpath**
-
-1️⃣ //*[@id="login"]
-
-2️⃣ //*[text()="Login"]
-
-3️⃣ //*[contains(@class, "MuiInputBase-root MuiInput")]
-
-👉 **Hasło_input_xpath**
-
-1️⃣ //*[@id="password"]
-
-2️⃣ //*[text()="Hasło"]
-
-3️⃣ //*[@name="password"]
-
-👉 **Polski_button_xpath**
-
-1️⃣ //*[@id="__next"]/form/div/div[2]/div/div
-
-2️⃣ //*[contains(@class, "MuiSelect-root MuiSelect-select")]
-
-3️⃣ //*[text()="Polski"]
-
-👉 **Zaloguj_button_xpath**
-
-1️⃣ //*[@id="__next"]/form/div/div[2]/button/span[1]
-
-2️⃣ //*[contains(@class, "MuiButton-label")]
-
-3️⃣ //*[text()="Zaloguj"]
+  👉 **Login_input_xpath**
+  
+    1️⃣ //*[@id="login"]
+    
+    2️⃣ //*[text()="Login"]
+  
+    3️⃣ //*[contains(@class, "MuiInputBase-root MuiInput")]
+  
+  👉 **Hasło_input_xpath**
+  
+    1️⃣ //*[@id="password"]
+  
+    2️⃣ //*[text()="Hasło"]
+  
+    3️⃣ //*[@name="password"]
+    
+  👉 **Polski_button_xpath**
+    
+    1️⃣ //*[@id="__next"]/form/div/div[2]/div/div
+    
+    2️⃣ //*[contains(@class, "MuiSelect-root MuiSelect-select")]
+    
+    3️⃣ //*[text()="Polski"]
+    
+  👉 **Zaloguj_button_xpath**
+  
+    1️⃣ //*[@id="__next"]/form/div/div[2]/button/span[1]
+    
+    2️⃣ //*[contains(@class, "MuiButton-label")]
+    
+    3️⃣ //*[text()="Zaloguj"]
 
   ## Subtask 3: Dodawanie selektorów do projektu
 
@@ -109,7 +109,7 @@
 
 #   Task 6: Raportowanie błędów i raport z testów
   ## Subtask 2: Zgłaszanie błędów
-  👉 [My reported bugs(aut)](https://docs.google.com/spreadsheets/d/1FIdp6GxTHnairIT1u8cfehFB0X-CVmjoOduRehm3puQ/edit?usp=drive_link)
+  👉 [My reported bugs(auto)](https://docs.google.com/spreadsheets/d/1FIdp6GxTHnairIT1u8cfehFB0X-CVmjoOduRehm3puQ/edit?usp=drive_link)
 
   ## Subtask 3: Raport z testów
   👉 [Test report auto](https://docs.google.com/spreadsheets/d/1hMPS9euSHF762eKXP4l0XdkegYESSOrABoE-5sMd2X0/edit?usp=drive_link)
